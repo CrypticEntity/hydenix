@@ -26,7 +26,7 @@
   outputs =
     inputs@{ hydenix-nixpkgs, ... }:
     let
-      system = "x86_64-linux";
+      system = "aarch64-linux";
 
       # Create lib attribute that template expects
       lib = {
